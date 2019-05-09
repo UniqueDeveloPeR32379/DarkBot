@@ -33,8 +33,8 @@ async def on_ready():
     print('Logged in as '+client.user.name+' (ID:'+client.user.id+') | Connected to '+str(len(client.servers))+' servers | Connected to '+str(len(set(client.get_all_members())))+' users')
     print('--------')
     print('--------')
-    print('Started Dark BOT')
-    print('Created by Utkarsh')
+    print('Started BOT')
+    print('Created by Raj,GZ,RJ')
     client.loop.create_task(status_task())
 
 
